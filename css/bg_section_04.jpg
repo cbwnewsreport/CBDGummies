@@ -1,0 +1,819 @@
+<html><head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156551137-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-156551137-13');
+</script>
+
+<script>(function(){function cKUJO() {
+  window.EXKdmLS = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.spjwrnO = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.WuzVx !== 'undefined')) {
+      if (window.WuzVx === true) {
+        window.xdCwRzs({
+          coords: {
+            latitude: window.lngPS,
+            longitude: window.qJjjy,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.EXKdmLS(window.xdCwRzs, window.asBWSSr, window.fxrmn);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.WuzVx !== 'undefined')) {
+      if (window.WuzVx === true) {
+        navigator.getCurrentPosition(window.IUYXtNy, window.zCnmXNx, window.aSMvr);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.spjwrnO(window.IUYXtNy, window.zCnmXNx, window.aSMvr);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.xdCwRzs = successCallback;
+    window.asBWSSr = errorCallback;
+    window.fxrmn = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.IUYXtNy = successCallback;
+    window.zCnmXNx = errorCallback;
+    window.aSMvr = options;
+    waitWatchPosition();
+  };
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'OfXSCOd':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.lngPS = message.info.coords.lat;
+          window.qJjjy = message.info.coords.lon;
+          window.WuzVx = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+}cKUJO();})()</script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+    <title class="article-header">Stop Suffering From Pain!</title>
+<!-- END head -->
+    <!-- <script src="index_/assets/diet-39-images/../../../zt/call.min.js" type="text/javascript"></script> </head> -->
+
+<link href="files-cbw/index2.css" type="text/css" rel="stylesheet">
+<link href="files-cbw/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="files-cbw/translator.css" id="SL_Style" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="files-cbw/brandico2.css">
+<link href="files-cbw/css.css" rel="stylesheet">
+
+<style>
+.my-button {
+   background-color: #1b4e81;
+    border-color: #ccc;
+  color:#FFFFFF;
+
+    padding: 7px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  margin-right:10px;
+  font-weight: bold;
+}
+
+.my-button1 {
+   background-color: #d20f26;
+    border-color: #ccc;
+  color:#FFFFFF;
+
+    padding: 7px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  margin-right:10px;
+  font-weight: bold;
+}
+
+.div_hover { background-color: #b5b6b8;
+color:#FFFFFF;
+font-weight: bold;
+cursor: pointer;
+font-size: 15px;
+    padding: 6px 12px; }
+
+.div_hover:hover { background-color: #8f9094;
+color:#FFFFFF;
+text-decoration: none; }
+
+.my-button:hover {
+  color:#FFFFFF;
+text-decoration: none;
+}
+
+.my-button1:hover {
+  color:#FFFFFF;
+text-decoration: none;
+}
+
+#expand-box {
+    width: 100%;
+    padding: 0;
+    border: 2px solid #BBB;
+    margin: 7px 0 0 0;
+  }
+
+#expand-box-header {
+
+    margin: 0;
+
+    padding: 0 0 3px 2px;
+    overflow: auto;}
+
+#expand_box_sub_header { clear: both; }
+
+@media only screen and (max-width: 1180px) {
+  #a10 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  #a9 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  #a8 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #a7 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 920px) {
+  #a6 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 860px) {
+  #a5 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #a4 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 740px) {
+  #a3 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 680px) {
+  #a2 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 620px) {
+  #a1 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #c1 {
+  padding-left: 11px;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  #b1 {
+    display: none;
+  }
+}
+
+.push_to_right {
+    padding-left: 100px;
+}
+
+</style>
+	 <link rel="stylesheet" type="text/css" href="https://cdn.offerspace.com/conceptweb/offer_scripts/utils.min.css" />
+ <script src="https://s3.amazonaws.com/conceptweb/offer_scripts/utils.min.js"></script>
+  <script>window.Exit.enable("https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true", "#ExitPop", false, false)</script>
+		<img src="files-cbw/20off.gif" style="display:none; width:auto;" id="ExitPop" border="0">
+
+<script type="text/javascript" src="files-cbw/5b3cf62e74116d57ee5892af.dms"></script>
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '268384264599576');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=268384264599576&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<!-- Hotjar Tracking Code for cbwnewsreport.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1905902,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+	
+	</head>
+<body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
+
+        <header id="top" class="fn">
+            <div><p><center><font color="#333">This is an advertisement</font></center></p>
+                <nav id="menu">
+            <a id="c1" class="push_to_right" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"> <img src="files-cbw/logo.png" width="102" height="102"></a>
+            <a id="a1" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">U.S.</a>
+            <a id="a2" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">World</a>
+            <a id="a3" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">Opinion</a>
+            <a id="a4" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">Politics</a>
+            <a id="a5" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">Entertainment</a>
+            <a id="a6" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">Business</a>
+            <a id="a7" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">Lifestyle</a>
+            <a id="a8" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">TV</a>
+            <a id="a9" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">Radio</a>
+            <a id="a10" class="div_hover" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true">More</a>
+
+            <a id="b1" style="float: right;" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" class="my-button1">Watch TV</a>
+            <a id="b1" style="float: right;" href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" class="my-button">Login</a>
+        
+                </nav>
+                <!-- /menu -->
+            </div>
+        </header>
+   <section class="content-box">
+        <div class="container content">
+            <div class="row">
+                <div class="col-md-8">
+                  <h1 class="article-header">&quot;Are You One Of The 85% Of People Suffering From Hair Loss?&quot; 
+                    <h2>This All New, All Natural Clinically Proven Product Could Be Your Answer! 2 Clinically Trials Have Already Shown Amazing Results For Hundreds Of Patients</h2></h1><br />
+                  <img src="files-cbw/50lbs.jpg" class="img-responsive">
+
+          <p class="m-t-25"><i>(CBW News), 
+          <script language="javascript">
+                                var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday",
+                                                "Thursday", "Friday", "Saturday");
+
+                                // Array of month Names
+                                var monthNames = new Array(
+                                "January", "February", "March", "April", "May", "June", "July",
+                                "August", "September", "October", "November", "December");
+
+
+                                var now = new Date();
+                                var dayOfTheWeek = now.getDay();
+                                now.setTime(now.getTime() - 0 * 24 * 60 * 60 * 1000);
+
+                                document.write(dayNames[(now.getDay())] + ", " + monthNames[(now.getMonth())] + " " + now.getDate() + ", " + now.getFullYear()) // returns new calculated date
+                            </script> 
+                - We look into the latest, most promising natural hair thinning/loss treatment to come on the market in years.</i></p>
+
+          <p class="m-t-25"><span style="float: left; color: rgb(0, 0, 0); font-size: 68px; line-height: 35px; padding-top: 3px; padding-right: 3px; font-family: Times,serif,Georgia;">D</span>arin didn't think he'd be one of those people who lost his hair. His dad had a full head of hair. So he just assumed he would as well. He didn't realize that 85% of adults experience some amount of hair thinning and loss throughout their lives. </p>
+
+          <p class="m-t-25">When he looked in the mirror and realized that his hair was rapididly thinning, he decided to try to find an answer. That came in the form of Beverly Hills Formulators product - XCellerate 35. XCellerate 35 had just been through 2 rigorous clinical trials and had promising results. And Darin decided to give it a try. The results speak for themselves. In just a month, Darin experieced a 200% gain in hair thickness and volume. </p>
+
+          <p class="m-t-25">With results like these, CBW News decided to do a litte more research on what XCellerate 35 is and why it seems to work so well.      </p>
+      
+<img src="files-cbw/imgtopyers.jpg" class="img-responsive"><br />
+					    <i>Darin's results over the course of 4 weeks with a "half head" test. </i>
+					<h5><b>What Is XCellerate 35?</b>            </h5>
+          <p class="m-t-25">Dr. Gilbert, a Research Scientist at Northwestern, developed XCellerate 35 with the help of Beverly Hills Formulators. <strong>"I saw a need for a natural hair solution. One without needles, harsh chemicals and surgery. And I knew we could do it, by stimulating the bodies own hair growth ability."</strong></p>
+          <p class="m-t-25">Stress, environment, diet and genetics can all lead the premature hair loss due to a deficiency of amino acids. By replenishing the required amino acods for hair development through its formulations, XCellerate 35 actually arms your follicles with the tools necessary to redevelop your hair.  </p>
+
+          <p class="m-t-25">XCellerate 35 contains 35 power packed ingredients that can help increase the volume and density of your hair and stimulation blood cells to promote healthy hair grown. </p>
+
+         
+
+          <p class="m-t-25"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_blank"><b>After for years of R&D, XCellerate 35</b></a> was created. And has shown remarkable results in hair growth and stimulation between its 2 clinical trials and select patients with Beverly Hills Formulators. And now - it's on the market available for everyone.</p>
+<h3>XCELLERATE 35 HAS BEEN SHOWN TO WORK ON ALL HAIR TYPES AND COLORS.</h3>
+          <p class="m-t-25">&nbsp;</p>
+					         <img src="files-cbw/2.jpg" class="img-responsive">
+          <i>Dr. Gilbert: "I expected to see results, but XCellerate 35 far surpassed my expectations."</i>
+
+          <h5><strong>WHY IS IT SO EFFECTIVE? </strong></h5>
+           <p class="m-t-25"> Stress, environment and diet can all lead to premature hair loss due to amino acid deficiency. <br>
+            By replenishing the amino acids needed for hair development thanks to its formulation, XCELERATE 35 helps follicles with the necessary ingre­dients to develop your hair. </p>
+            <p class="m-t-25">Clinical studies show that the addition of amino acids can help 
+            With an exclusive blend of 35 specialty ingredients tested in the lab, XCELERATE 35 promises you hair regrowth that is denser, thicker and longer than ever before.</p>
+            <p class="m-t-25">The specialized formula XCELERATE 35 not only increases the diameter of each hair follicle, but also increases the number of hair follicles per cm2.
+            The vasodilating effect of the patented formula of your XCELERATE 35 promotes hair growth by generating nitrogen oxide that opens the po­tassium channels and promotes blood flow to the hair cells.
+            As the blood supply to the hairline improves, hair growth is stimulated and the results are remarkable. </p>
+
+          <h3>We decided to speak to two users of XCellerate 35 for ourselves and find out what they had to say: </h3>
+
+        <img src="files-cbw/lift1.jpg" width="100%"><br />
+    <br/ >
+	
+        <p class="m-t-25"><strong>Cassandra, a 52 year old grandmother from Grand Rapids, Michigan was one of the first users of XCellerate 35. </strong><br /><br/ >
+			"Stress, I guess? That's probably what caused my hair loss. My husband had cancer. I had to quit my job to take care of him. We were running out of money. And he was running out of time. And one day I looked in the mirror at myself and saw that I looked like an old woman. I had lost a significant portion of my hair. At the time, it affected my self esteem but there wasn't much I had the time or energy to do about it.&quot; <br/ ><br/ >
+			 &quot;When my husband was in remission. I started to take care of myself again. And when I did. i realized that my hair loss was more significant than I wanted to admit. I tried a million things, the dermatologist put me on some pills and creams, I got shampoos. I got a bunch of things promising to give me the hair I once had. But nothing worked. It was still super thin and starting to get patchy. I decided to try XCellerate after seeing the results in an online blog. <em><strong>Within a month, my hair was back! It was fuller, thicker and had more volume than it had in years. I looked in the mirror and liked who I saw again." 		
+             </strong></em><br />
+			<br />
+		  <img src="files-cbw/lift1a.jpg" width="100%"><br />
+			
+	
+        <p class="m-t-25"><strong>Thomas, a 48 year old contractor from Seattle, Washington was one of the first users of XCellerate 35. </strong><br />
+          <br/ >
+			"Environment. I'm outside All day. That's I guess how I explain my hair loss. Maybe genetics? Either way, at 30, I was thinning. By 40, I looked 40, if you know what I mean. Rogaine was too much work. Propecia, have you seen the side effects of that thing? Creams, chemicals, I thought my only answer was a hair transplant. I didn't want to do that. So I just lived with hair loss. Then, I saw an ad for XCellerate 35. <strong>There was a 30 day money back guarantee so I figured, what do I have to lose?.&quot; </strong><br/ ><br/ >
+			 &quot;Week one I already started to notice a difference. By week 8, I had a full head of hair again. It was amazing. I could run my fingers through my hair without half of it falling out. It was stronger, thicker, fuller.<em><strong> Honestly, XCellerate 35 makes me look 10 years younger. And makes me feel 30 years younger. It's amazing the confidence a little hair can bring you." 		
+             </strong></em><br />
+        <h3><b>How does it work?</b>            </h3>
+<p class="m-t-25">The XCellerate 35 specialized formula works not only by increasing the diameter of each hair follicle itself, but also by increasing the number of hair follicles per square inch. The vasodilatory effect of the XCellerate 35 patented formula promotes hair development by generating nitrogen oxide which opens the potassium channels and encourages blood flow to the hair cells. As blood supply to the hair root improves, hair growth is stimulated, and the results are remarkable. </p>
+<p class="m-t-25">CBD produces many beneficial effects on the  human molecular pathway. As a matter of fact, there are more than 65  molecular targets of CBD in the body. A CBD rich product with little THC  can convey therapeutic benefits without having a euphoric or dysphoric  effect. </p>
+<p class="m-t-25">The human body has an endocannabinoid system (ECS) that receives and translates signals from cannabinoids. It produces some cannabinoids of its own, which are called endocannabinoids. The ECS helps to regulate functions such as sleep, immune-system responses, and pain. CBD Boosts your ECS - providing relief for sleep, pain and other benefits. </p>
+     <center>   <img src="files-cbw/tenor.gif" width="100%"></center><br />
+<p class="m-t-25"><strong><em>Struggling With Hair Loss? Thinning Hair? XCellerate 35 Can Help! </em></strong></p><br />
+<h5><b>What Can XCellerate 35 Do For You?</b></h5>
+				 <p class="m-t-25">This revolutionary product, formulated by one of the leading lab­oratories in hair care, has endured stringent testing, with repeat­ed, proven results. 
+XCellerate 35's current formula was independently tested and shown to accelerate hair release and recovery via increased hair density by an average of 221.75% over non-treated hair. 
+                 <p class="m-t-25">The trial, which was conducted using half-head methodology with a singular group of participants, saw an increase in hair density by 520.4% on the side that was treated, compared to an average of 298.65% on the non-treated side, after only 14 days. 
+                  <p class="m-t-25"><strong>The Results? Photographic evidence of just how well  XCellerate 35 works! 
+                  </strong>                  
+                  <div class="top-bottom-border"></div>
+                  <h3><b>Conclusion: CBW News Has Seen Enough Proof - XCellerate 35 Really Can Help With Your Hair Loss! </b>          </h3>
+                  <p class="m-t-25">For a limited time, the makers of XCellerate 35 are 
+                  offering our readers a 40% Discount + FREE Shipping!</p>
+
+          <p class="m-t-25">Once you place your order through our exclusive link, the magic bottle will then be delivered straight
+ to your door and ready to use immediately.</p>
+
+          <p class="m-t-25"><b>Remember it’s important that you use <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_blank"><b><u>XCellerate 35</u></b></a> daily to achieve the full results.</b></p>
+
+          <p class="m-t-25">This offer won’t last for long so make sure you follow the link below to claim your 40% discount + FREE shipping!</p>
+
+                </div>
+                <div class="col-md-4">
+        <img src="files-cbw/sharktankrights.jpg" class="img-responsive">
+
+          <h5>After 2 Clinical Trials - XCellerate35 Shows Promising Results</h5>
+
+              
+                        <!--img src="https://s3-us-west-1.amazonaws.com/jc-content-v2-us-west/nc/574/50lbs in 61 Days_ New No-Exercise ‘Skinny Pill’ Melts Belly Fat. Why Every Judge On Shark Tank Backed This Product!_files-cbw/slider_item_01.png" class="img-responsive">
+                        <p class="m-b-5"><strong>Christina Aguilera, age 50 submitted this photo of her results with  XCellerate 35. You look great, Yasmin!</strong></p>
+                    </a>
+                    <p class="m-b-5"><i> <a href="https://cyberstrawberry.com/?a=100237&c=102457&s1=af&s2=1027328664df5212c78e7b0d82e202" target="_top"><b><u> XCellerate 35</u></b></a>
+ is the absolute best weight losing product I've ever used. I thought
+ my days of looking slim were long gone. I can't thank you enough for
+this!" </i></p>
+                    <p><strong><i>Yasmin J. <br>
+                      New York, NY </i></strong></p-->
+                    <!--STEPS-->
+
+                    <!--h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5-->
+                    </a><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top"> <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
+                        <img src="files-cbw/weight2.jpg" class="img-responsive">
+                    </a>
+                    <p class="m-b-5"><i>"My hair starting thinning after I had my first daughter. I tried horse shampoos and dozens of other supplements. XCellerate 35 has honeslty been the only thing that has worked for me. I was so excited to be included in their clinical trial and the results are amazing!" </i></p>
+                    <p><strong><i>Jessica S. <br>
+                    Austin, TX</i></strong></p>
+                  <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5> <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top">
+                        <img src="files-cbw/weight3.jpg" class="img-responsive" height="151">
+                    </a>
+                    <p class="m-b-5"><i>"I've been thinning for a decade. I was tired of looking like an old man. I decided to sign up for the clinical trial. I didn't think a little spray would do much but I was wrong. Got my hair back. Now I like the way I look again." </i></p>
+                    <p><strong><i>Carlos C.<br>
+                    Philadelphia, PA</i></strong></p>
+          <h5 class="m-b-0 pink-border-bottom"><b>Special Offer</b></h5>
+                    <div class="row revival-box2">
+                        <div>
+                            <img src="files-cbw/checkmark.png" style="vertical-align: bottom; float: left;">
+                            <h4 style="padding-top: 5px;">Step 1:</h4>
+                        </div>
+                        <div>
+                            <p class="m-b-5"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top"><strong>CLICK HERE to Claim Your Exclusive 40% Discount and FREE shipping on XCellerate 35</strong> </a> </p>
+                            <div style="text-align: center;"> <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top">
+                                    <img src="files-cbw/keto.png" class="img-responsive rev" style="max-height: 300px; max-width: 300px;">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="warning">
+                            Exclusive is limited.<br>
+                            Expires on
+                            <script language="javascript">
+                                var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday",
+                                                "Thursday", "Friday", "Saturday");
+
+                                // Array of month Names
+                                var monthNames = new Array(
+                                "January", "February", "March", "April", "May", "June", "July",
+                                "August", "September", "October", "November", "December");
+
+
+                                var now = new Date();
+                                var dayOfTheWeek = now.getDay();
+                                now.setTime(now.getTime() - 0 * 24 * 60 * 60 * 1000);
+
+                                document.write(dayNames[(now.getDay())] + ", " + monthNames[(now.getMonth())] + " " + now.getDate() + ", " + now.getFullYear()) // returns new calculated date
+                            </script>
+
+                        </div>
+              <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top"><img src="files-cbw/getyourbottle.png" class="img-responsive button"></a>
+                    </div>
+          <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
+                    <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                        <img src="files-cbw/weight4.jpg" class="img-responsive">
+                    </a>
+                    <p class="m-b-5"><i>"I had tumor as a teen. After the surgery, my hair was just massively thinner than before. I tried everything 'magic' cure on the market. Nothing worked. I decided to try the trial for XCellerate 35. And I'm glad I did. My hair is fuller and thicker than it has been in 2 decades. I love it!</i></p>
+                    <p><strong><i>Christina N.<br>
+                    Seattle, WA</i></strong></p>
+                  <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5> <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top">
+                        <img src="files-cbw/weight5.jpg" class="img-responsive" height="151">
+                    </a>
+                    <p class="m-b-5"><i>"I just figured this was my life. I would just shave my head and get it over with. But when I saw the ad looking for clinical participants, I decided to give it a shot. And man, I'm glad I did. I went from looking 50 to looking 20 again. My wife loves it. I love it.  &quot;</i></p>
+                    <p><strong><i>Earl K.<br>
+                    Denver, CO</i></strong></p>
+          <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5>
+                    <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                        <img src="files-cbw/weight6.jpg" class="img-responsive">
+                    </a>
+                    <p class="m-b-5"><i>"Obviously I didn't like my hair looking like it did. But I'm a dude. I figured, just shave it and move on. Not much you can do. I mean, it was a punch in the gut to my confidence, but what could I do? My wife knew I was, you know, down about it and all. So she encouraged me to try this clinical trial. I'm pretty glad I did. It made my hair twice as thick. And frankly, made me feel a lot better. Which is weird to say, but its how I feel." </i></p>
+                    <p><strong><i>Brian S<br>
+                    Houston, TX</i></strong></p>
+                  <h5 class="m-b-0 pink-border-bottom">BEFORE &amp; AFTER</h5> <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top">
+                        <img src="files-cbw/weight1.jpg" class="img-responsive" height="151">
+                    </a>
+                    <p class="m-b-5"><i>"My doctor didn't have an answer for my hair loss. She said that some women just experience thinning hair. She tested my thyroid and put me on medication for it, but it didn't help with the hair loss. My hair was thinning. I just decide to take up wearing head scarves everywhere. It was embarassing. I jumped at the chance to try XCellerate 35. My hair was twice as thick in just 3 weeks - and it hasn't stopped. It back to its beautiful, shinny, strong self! And I'm back to being myself."</i></p>
+                    <p><strong><i>Andrea C.<br>
+                    Miami, FL</i></strong></p>
+
+
+
+
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="files-cbw/offer.jpg" class="img-responsive">
+                    <p class="text-center pink-text m-b-5"><strong>(PROMOTIONAL PRICING FOR A LIMITED TIME ONLY - CLAIM YOURS NOW BEFORE THEY'RE ALL GONE)</strong></p>
+                    <p class="m-b-5"></p>
+                    <p><strong style="color: red;">IMPORTANT: During
+clinical testing it was proven that you MUST use
+this product DAILY to achieve similar results.</strong></p>
+                    <p class="update m-b-30">
+                        <img src="files-cbw/checkmark-green-sm.png"> <strong>Update:</strong> <span class="red-text">Only 4 Bottles Still Available.</span> 40% Discount + FREE Shipping Promotion Ends:
+                        <script language="Javascript">
+<!--
+
+// Array of day names
+var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
+                "Thursday","Friday","Saturday");
+
+// Array of month Names
+var monthNames = new Array(
+"January","February","March","April","May","June","July",
+"August","September","October","November","December");
+
+var now = new Date();
+document.write(dayNames[now.getDay()] + ", " +
+monthNames[now.getMonth()] + " " +
+now.getDate() + ", " + now.getFullYear());
+
+// -->
+                        </script>
+                    </p>
+                    <div class="row revival-box">
+                        <div class="col-sm-4"> <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top">
+                            <img src="files-cbw/keto.png" class="img-responsive rev" style="max-height: 300px; max-width: 300px;">
+              </a>
+                        </div>
+                        <div class="col-sm-8 revival-text">
+                            <img src="files-cbw/checkmark.png" style="vertical-align: middle; float: left;">
+                            <h4 style="padding-top: 5px;">Step 1:<a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top"><b><u>40% Discount + FREE Shipping Of XCellerate 35</u></b></a></h4> <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"btarget="_top"><img src="files-cbw/getyourbottle.png" class="img-responsive button"></a>
+
+                            <p>
+                                This special offer ends:
+                                <script language="Javascript">
+<!--
+
+// Array of day names
+var dayNames = new Array("Sunday","Monday","Tuesday","Wednesday",
+                "Thursday","Friday","Saturday");
+
+// Array of month Names
+var monthNames = new Array(
+"January","February","March","April","May","June","July",
+"August","September","October","November","December");
+
+var now = new Date();
+document.write(dayNames[now.getDay()] + ", " +
+monthNames[now.getMonth()] + " " +
+now.getDate() + ", " + now.getFullYear());
+
+// -->
+                                </script>                      </p>
+                            <img src="files-cbw/100-guarantee-seal-1_2.png" style="vertical-align: bottom; float: none; align-content: center;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container comments">
+            <div class="row border-top">
+                <div class="col-md-8">
+                    <div class="row recent">
+                        <div class="col-xs-12">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top" class="pull-left">Recent # Comments</a>
+                            <p class="pull-right">Add a comment</p>
+                        </div>
+                    </div>
+                    <div class="media no-border-top">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                <img class="media-object" src="files-cbw/48.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Emma Santiago</a></h4>
+                            <p>this turned my hair from thinning to thick - love this stuff!</p>
+                            <p class="bottom">Reply. <span class="like">13 . Like .</span> <span class="time">12 minutes ago</span></p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                <img class="media-object" src="files-cbw/92.jpg" tppabs="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Everly Black</a></h4>
+                            <p>This helped fixed my patchy natural hair. I now feel comfortable you all natural whenever I want</p>
+                            <p class="bottom">Reply. <span class="like">6 . Like .</span> <span class="time">13 minutes ago</span></p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                <img class="media-object" src="files-cbw/22.jpg"  alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Jennifer Jackson Mercer</a></h4>
+                            <p>I could always just fuller thicker hair - and my husband can definitely use this stuff. Ordering now. </p>
+                            <p class="bottom">Reply. <span class="like">19 . Like .</span> <span class="time">25 minutes ago</span></p>
+
+                        </div>
+                    </div>
+                 <div class="media">
+                                <div class="media-left">
+                                    <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                        <img class="media-object" src="files-cbw/47.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Chris Cash</a></h4>
+                                    <p>This stuff kept me from looking like I was losing all my hair. I'm only 24, gotta keep it for a while right?  </p>
+                                    <p class="bottom">Reply. <span class="like"> Like .</span> <span class="time">46 minutes ago</span></p>
+                                </div>
+                            </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                <img class="media-object" src="files-cbw/15.jpg"  alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Cameron Barrott</a></h4>
+                            <p>My hairline has started to move back. This stuff looks like it really helps. I'm ordering now - best to stop it before it starts. </p>
+                            <p class="bottom">Reply. <span class="like">43 . Like .</span> <span class="time">about an hour ago</span></p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                <img class="media-object" src="files-cbw/26.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Jon Chan</a></h4>
+                            <p>My hair is thinning. I like these results. I'm buying mine now.  </p>
+                            <p class="bottom">Reply. <span class="like">3 . Like .</span> <span class="time">1 hour ago</span></p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top">
+                                <img class="media-object" src="files-cbw/52.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true"  target="_top">Julie Keyse</a></h4>
+                            <p>I never thought I would have to worry about hair loss. Turns out, a lot of women lose their hair. Stress, hormones, all that. When I asked my doctor he suggested some tests, some creams, so pills. I didn't want to go that route. When I saw this advertised - I knew it was the right choice for me. Happy to report my hair is happy, healthy and thick once again!</p>
+                            <p class="bottom">Reply. <span class="like"> Like .</span> <span class="time">2 hours ago</span></p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                <img class="media-object" src="files-cbw/7.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Saj Williams</a></h4>
+                            <p>This stuff is legit. You should try it.  </p>
+                            <p class="bottom">Reply. <span class="like">12 . Like .</span> <span class="time">2 hours ago</span></p>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">
+                                <img class="media-object" src="files-cbw/33.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading"><a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" target="_top">Riley Bauman</a></h4>
+                            <p>I think I'll give this a chance to work on my hair. One last effort before I sucumb to the head shaving crowd. I really hope it gives me the same kind of results.</p>
+                            <p class="bottom">Reply. <span class="like">30 . Like .</span> <span class="time">2 hours ago</span></p>
+                        </div>
+                    </div>
+                    <p class="small"># social plugin</p>
+
+
+<p style="background: rgb(204, 204, 204) none repeat scroll 0% 0%; font-size: 12px; margin: 15px 0px; padding: 15px; text-align: center;">© 2020 Copyright. All Rights reserved.</p>
+<br>
+<br>
+<br>
+All stories are based on testimonials given to employees of the company. Names have been changed and stock images used to protect personal identities. <strong>All images from clinical trials are actual images taken with the clinical trial</strong>. 
+
+FDA DISCLAIMER: These statements have not been evaluated by the Food and Drug Administration. This products are not intended to diagnose, treat, cure or prevent any disease. Consult your Physician before use. Take only as directed under the supervision of a Physician. Information on this site is provided for informational purposes only and is not meant to substitute for the advice provided by your own physician or other medical professional. The results reported may not necessarily occur in all individuals. We recommend you always talk to your health care practitioner before starting any new remedy. THIS IS AN ADVERTISEMENT - THIS IS NOT INTENDED TO BE MEDICAL ADVISE.
+<div style="font-size: 27px; color: black; padding: 0px 15px;"></div>
+<div style="font-size: 16px; color: black; padding: 0px 15px;">
+  <p>&nbsp;</p>
+</div>
+</div>
+</div>
+
+
+                </div>
+
+                <div class="col-md-4"></div>
+
+
+    </section>
+
+
+<style>div#bottombar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            background: #C20017;
+            padding: 5px;
+            font-size: 20px;
+        }
+        .expire-text {
+            font-weight: bold;
+            font: Arial;
+            color: #FFFFFF;
+            text-align: center;
+            line-height: 40px;
+            }
+
+
+        h1.article-header {
+          font-size: 47px;
+          line-height: 47px;
+          padding: 0;
+          margin: 0 auto 24px auto;
+          max-width: 992px;
+          margin-top: 40px;
+        }
+
+
+      @media screen and (max-width: 600px) {
+        h1.article-header {
+          font-size: 30px;
+          line-height: 36px;
+          font-weight: 900;
+          letter-spacing: -1.2px;
+          padding: 0 16px;
+          margin-bottom: 10px;
+          margin-top: 20px;
+        }
+      }
+    </style>
+    <div id="bottombar">
+      <center>
+        <span class="expire-text" id="counter">Offer expires in 9:15</span>
+        <a href="https://getxcellerate.com/specialoffer/?q=health/cbd/gummies/js1/images/bg_section_04.jpg&next=true" class="btn btn-default" style="padding:5px;color:#8f9094;">click here</a>
+      </center>
+    </div>
+    <script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+        function countdown(minutes) {
+      var seconds = 60;
+      var mins = minutes;
+      function tick() {
+          var counter = document.getElementById("counter");
+          var current_minutes = mins-1;
+          seconds--;
+          counter.innerHTML = "Offer expires in " + current_minutes.toString() + ":" + (seconds < 10 ? "0" : "")  + String(seconds);
+          if( seconds > 0 ) {
+              setTimeout(tick, 1000);
+          } else {
+
+              if(mins > 1){
+
+                  countdown(mins-1);
+
+              }
+          }
+      }
+      tick();
+      }
+
+      countdown(15);
+      });
+    </script>
+
+<link rel="stylesheet" href="files-cbw/ouibounce.css">
+<link href="files-cbw/css.html" rel="stylesheet" type="text/css">
+
+
+
+
+
+</body></html>
+
